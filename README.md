@@ -1,5 +1,5 @@
 # Winget & Intune Proactive Remediation
-Most admins need to take care of third party software updates. If you do not have access to third party software management tools like ManageEngine and/or SCCM, updating your Intune managed Windows devices might be a cumbersome task. Here is Winget to the rescue!
+Most admins need to take care of third party software updates. If you do not have access to third party software management tools like ManageEngine and/or SCCM, updating 3rd part software on your Intune managed Windows devices might be a cumbersome task. Here is Winget to the rescue!
 The Web is full of Winget scripts. Guys like David Just and Andrew Taylor got me up and running with Winget in Intune in no time. However, combining Winget scripts with Intune proactive remediation needs some tweaks to get proper feedback in the Intune console and logs. So I rewrote their scripts into a Lean LAPS style remediation-during-detection execution. You can find the results here: GitHub.
 
 # 4 scripts:
